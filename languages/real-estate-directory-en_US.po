@@ -1,0 +1,806 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Directory 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-27 17:19+0000\n"
+"PO-Revision-Date: 2024-02-27 17:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;__ngettext:1,2;__ngettext_noop:1,2;_c;_e;_ex:1,2c;"
+"_n:1,2;_n_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;gettext;"
+"gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor/ayecode/wp-ayecode-ui/assets\n"
+"X-Poedit-SearchPathExcluded-1: vendor/ayecode/wp-ayecode-ui/assets-v5\n"
+"X-Poedit-SearchPathExcluded-2: vendor/composer\n"
+"X-Poedit-SearchPathExcluded-3: vendor/ayecode/wp-font-awesome-settings/"
+"assets\n"
+"X-Poedit-SearchPathExcluded-4: assets\n"
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:28
+msgid "GD > Energy Rating Chart"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:39
+msgid "Adds an EPC rating chart for real estate."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:56
+msgid "Rating Type"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:58
+msgid "Auto (use listing location)"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:59
+msgid "EPC Rating (European Union / UK)"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:60
+msgid "HERS (United States)"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:64
+#: includes/blocks/class-geodir-widget-energy-rating.php:74
+#: includes/blocks/class-geodir-widget-energy-rating.php:85
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:46
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:101
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:111
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:122
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:132
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:141
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:150
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:159
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:168
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:177
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:186
+#: includes/blocks/class-geodir-widget-walk-score.php:46
+#: includes/blocks/class-geodir-widget-walk-score.php:101
+#: includes/blocks/class-geodir-widget-walk-score.php:108
+#: includes/blocks/class-geodir-widget-walk-score.php:122
+#: includes/blocks/class-geodir-widget-walk-score.php:138
+#: includes/blocks/class-geodir-widget-walk-score.php:148
+#: includes/blocks/class-geodir-widget-walk-score.php:159
+msgid "Defaults"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:69
+msgid "EPC Rating"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:71
+msgid ""
+"Enter EPC rating (0 to 100) or leave blank to use the post `energy_rating` "
+"field"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:80
+msgid "HERS Rating"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:82
+msgid ""
+"Enter HERS rating (0 to 150) or leave blank to use the post `energy_rating` "
+"field"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-energy-rating.php:220
+#, php-format
+msgid "HERS Rating: %s"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:28
+msgid "GD > Mortgage Calculator"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:39
+msgid "Adds a mortgage_calculator for real estate."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:50
+#: includes/blocks/class-geodir-widget-walk-score.php:50
+msgid "Content"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:59
+#: includes/blocks/class-geodir-widget-walk-score.php:59
+msgid "Background"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:62
+#: includes/blocks/class-geodir-widget-walk-score.php:62
+msgid "Styles"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:71
+#: includes/blocks/class-geodir-widget-walk-score.php:71
+msgid "Wrapper Styles"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:72
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:75
+#: includes/blocks/class-geodir-widget-walk-score.php:72
+#: includes/blocks/class-geodir-widget-walk-score.php:75
+msgid "Advanced"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:96
+msgid "Price"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:98
+msgid "Leave blank to use listing price field"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:106
+msgid "Currency symbol"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:108
+msgid "Leave blank to use country default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:117
+msgid "Currency code"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:119
+msgid "Leave blank to use country default (help with number formatting)"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:128
+msgid "Down payment default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:137
+msgid "Interest rate default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:146
+msgid "Loan Term default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:155
+msgid "Property Tax default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:164
+msgid "Home Insurance default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:173
+msgid "PMI default"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:182
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:338
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:433
+msgid "Monthly HOA Fees"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:300
+msgid "Monthly"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:308
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:364
+msgid "Down Payment"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:313
+msgid "Loan Amount"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:318
+msgid "Monthly Mortgage Payment"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:323
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:399
+msgid "Property Tax"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:328
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:410
+msgid "Home Insurance"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:333
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:421
+msgid "PMI"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:352
+msgid "Property Price"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:355
+msgid ""
+"This is the price of the property, it does not include additional fees that "
+"may be due."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:366
+msgid ""
+"The amount of money you pay upfront towards the mortgage, the more you pay "
+"the less your monthly payments will be."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:375
+msgid "Interest Rate"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:378
+msgid ""
+"This is the cost you pay to borrow money to buy a property It's a percentage "
+"of the loan amount. The lower the interest rate, the less you'll pay over "
+"the life of the loan."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:387
+msgid "Loan Term (Years)"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:390
+msgid ""
+"This is how many years the loan lasts, typically the longer it lasts the "
+"lower the monthly repayments."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:401
+msgid ""
+"This is a monthly estimate of your property tax, it will be different in "
+"each location, its used to give you an idea of your total monthly payments."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:413
+msgid ""
+"Insurance that covers loss or damage to the property. It is often a "
+"requirement from loan providers."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:424
+#, php-format
+msgid ""
+"Private Mortgage Insurance, is a type of insurance that homebuyers might "
+"need to pay if their down payment is less than 20% of the home's price. It "
+"protects the lender if the buyer can't pay the mortgage. It's usually a part "
+"of the monthly mortgage payment until the borrower has enough equity in the "
+"home."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-mortgage-calculator.php:436
+msgid ""
+"Homeowners Association fees, are monthly or yearly charges paid by "
+"homeowners to a community organization. This money is used for maintaining "
+"and improving shared spaces."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:28
+msgid "GD > Walk Score"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:39
+msgid "Adds a Walk Score widget that can be used on the listings details page."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:96
+msgid "Walk Score ID"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:99
+msgid "Get a WSID at"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:106
+msgid "A WalkScore.com ID is required for this to work."
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:114
+msgid "Format"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:116
+msgid "Wide"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:117
+msgid "Tall"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:118
+msgid "Square"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:127
+msgid "Size"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:129
+msgid "Large (width 100%)"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:130
+msgid "Large"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:131
+msgid "Medium"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:132
+msgid "Small"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:133
+msgid "Tiny"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:134
+msgid "custom"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:143
+msgid "height"
+msgstr ""
+
+#: includes/blocks/class-geodir-widget-walk-score.php:154
+msgid "Width"
+msgstr ""
+
+#: includes/class-real-estate-directory.php:106
+#: includes/class-real-estate-directory.php:108
+#: includes/class-real-estate-directory.php:116
+#: includes/class-real-estate-directory.php:139
+msgid "Virtual Tour"
+msgstr ""
+
+#: includes/class-real-estate-directory.php:107
+msgid "Add matterport.com or similar embed code for 360 tours."
+msgstr ""
+
+#: includes/class-real-estate-directory.php:140
+msgid "Adds a matterport.com or similar 360 tour embed code input."
+msgstr ""
+
+#: includes/class-real-estate-directory.php:200
+msgid ""
+"GeoDirectory plugin is required for the Save Search Notifications plugin to "
+"work properly."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:393
+#: includes/libs/tgm/class-tgm-plugin-activation.php:920
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2626
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:394
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:395
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:1027
+#: includes/libs/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:1214
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3602
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3602
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/libs/tgm/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
