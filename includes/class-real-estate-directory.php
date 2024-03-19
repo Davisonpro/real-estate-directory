@@ -79,6 +79,41 @@ final class GeoDir_Real_Estate {
 		add_filter( 'geodir_get_widgets', array( $this, 'register_widgets' ), 41, 1 );
 		add_filter( 'geodir_custom_fields_predefined', array( $this, 'add_predefined_fields' ), 10, 2 );
 		add_filter( 'geodir_extra_custom_fields', array( $this, 'add_dummy_data_custom_fields' ), 10, 3 );
+		add_filter( 'geodir_dummy_data_posts', array( $this, 'add_dummy_data_fields' ), 10, 2 );
+	}
+
+	/**
+	 * Add dummy data fields to dummy posts.
+	 *
+	 * This method adds dummy data fields to the given dummy posts array based on the provided key.
+	 * If the key is either 'property_sale' or 'property_rent', the following fields will be added to each dummy post:
+	 * - energy_rating: An integer between 50 and 100.
+	 * - virtual_tour: A URL to a Matterport virtual tour.
+	 * - video: A URL to a YouTube video.
+	 *
+	 * @param array $dummy_posts The array of dummy posts.
+	 * @param string $key The key used to determine whether to add the dummy fields.
+	 *
+	 * @return array The modified array of dummy posts.
+	 */
+	public function add_dummy_data_fields( $dummy_posts, $key ) {
+
+		if ( ! empty($dummy_posts) && ('property_sale' === $key ||  'property_rent' === $key) ) {
+			foreach ( $dummy_posts as $i => $dummy_post ) {
+
+				// add the energy rating (0-150) (EU one goes to 100 so lets keep it under that
+				$dummy_post['energy_rating'] = rand(50, 100);
+
+				// matterport
+				$dummy_post['virtual_tour'] = 'https://my.matterport.com/show/?m=Zh14WDtkjdC&amp;play=1';
+
+				// video
+				$dummy_post['video'] = 'https://www.youtube.com/watch?v=-faXssUI7Lo';
+
+				$dummy_posts[$i] = $dummy_post;
+			}
+		}
+		return $dummy_posts;
 	}
 
 	/**
@@ -100,20 +135,25 @@ final class GeoDir_Real_Estate {
 			if ( 'property_sale' === $key ||  'property_rent' === $key ) {
 
 				// virtual tour field
-				$fields[] = array('post_type' => $post_type,
-				                  'data_type' => 'TEXT',
-				                  'field_type' => 'textarea',
-				                  'admin_title' => __('Virtual Tour', 'geodirectory'),
-				                  'frontend_desc' => __('Add matterport.com or similar embed code for 360 tours.', 'geodirectory'),
-				                  'frontend_title' => __('Virtual Tour', 'geodirectory'),
-				                  'htmlvar_name' => 'virtual_tour',
-				                  'default_value' => '',
-				                  'is_active' => '1',
-				                  'option_values' => '',
-				                  'is_default' => '0',
-				                  'show_in' => '[owntab]',
-				                  'show_on_pkg' => $package,
-				                  'clabels' => __('Virtual Tour', 'geodirectory'));
+				$fields[] = array(
+					'post_type'      => $post_type,
+					'data_type'      => 'TEXT',
+					'field_type'     => 'textarea',
+					'admin_title'    => __( 'Virtual Tour', 'geodirectory' ),
+					'frontend_desc'  => __( 'Add matterport.com or similar embed URL for 360 tours.', 'geodirectory' ),
+					'frontend_title' => __( 'Virtual Tour', 'geodirectory' ),
+					'htmlvar_name'   => 'virtual_tour',
+					'default_value'  => '',
+					'is_active'      => '1',
+					'option_values'  => '',
+					'is_default'     => '0',
+					'show_in'        => '[owntab]',
+					'show_on_pkg'    => $package,
+					'clabels'        => __( 'Virtual Tour', 'geodirectory' ),
+					'extra'       => array(
+						'embed' => 1
+					)
+				);
 			}
 
 
@@ -131,7 +171,7 @@ final class GeoDir_Real_Estate {
 	 */
 	public function add_predefined_fields( $custom_fields ) {
 
-		// Video
+		// virtual_tour
 		$custom_fields['virtual_tour'] = array( // The key value should be unique and not contain any spaces.
 			'field_type'  => 'textarea',
 			'class'       => 'gd-virtual-tour',
@@ -156,7 +196,36 @@ final class GeoDir_Real_Estate {
 				'field_icon'         => 'fas fa-globe',
 				'css_class'          => '',
 				'cat_sort'           => false,
-				'cat_filter'         => false
+				'cat_filter'         => false,
+				'extra_fields'       => array(
+					'embed' => 1
+				)
+			)
+		);
+
+		// energy_rating
+		$custom_fields['energy_rating'] = array( // The key value should be unique and not contain any spaces.
+			'field_type'  => 'text',
+			'class'       => 'gd-energy-rating',
+			'icon'        => 'fas fa-chart-bar',
+			'name'        => __( 'Property Energy Rating', 'geodirectory' ),
+			'description' => __( 'Adds a input for a property energy rating. Use the GD > Energy Rating Chart block for output.', 'geodirectory' ),
+			'defaults'    => array(
+				'data_type'          => 'INT',
+				'admin_title'        => 'Property Energy Rating',
+				'frontend_title'         => 'Property Energy Rating',
+				'frontend_desc'         => 'Enter the energy rating score',
+				'htmlvar_name'       => 'energy_rating',
+				'is_active'          => true,
+				'for_admin_use'      => false,
+				'default_value'      => '',
+				'show_in'            => '[detail],[listing]',
+				'is_required'        => false,
+				'required_msg'       => '',
+				'field_icon'         => 'fas fa-chart-bar',
+				'css_class'          => '',
+				'cat_sort'           => true,
+				'cat_filter'         => true,
 			)
 		);
 

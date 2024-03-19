@@ -11,7 +11,7 @@
  * Plugin Name:       Real Estate Directory
  * Plugin URI:        https://wpgeodirectory.com/
  * Description:       Add real estate functionality to your site.
- * Version:           2.0
+ * Version:           2.0.1
  * Requires at least: 6.0
  * Requires PHP:      7.0
  * Author:            AyeCode Ltd
@@ -21,6 +21,8 @@
  * Requires Plugin:   geodirectory, blockstrap-page-builder-blocks, usserwp
  * Text Domain:       real-estate-directory
  * Domain Path:       /languages
+ * Update URL:        https://wpgeodirectory.com
+ * Update ID:         4055647
  */
 
 // If this file is called directly, abort.
@@ -29,7 +31,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 if ( ! defined( 'GEODIR_REAL_ESTATE_VERSION' ) ) {
-	define( 'GEODIR_REAL_ESTATE_VERSION', '2.0' );
+	define( 'GEODIR_REAL_ESTATE_VERSION', '2.0.1' );
 }
 
 if ( ! defined( 'GEODIR_REAL_ESTATE_MIN_CORE' ) ) {
@@ -52,7 +54,7 @@ function geodir_load_real_estate() {
 	}
 
 	// Min core version check
-	if ( ! function_exists( 'geodir_min_version_check' ) || ! geodir_min_version_check( 'Save Search Notifications', GEODIR_REAL_ESTATE_MIN_CORE ) ) {
+	if ( ! function_exists( 'geodir_min_version_check' ) ) {
 		return '';
 	}
 
@@ -64,7 +66,8 @@ function geodir_load_real_estate() {
 
 	return GeoDir_Real_Estate::instance();
 }
-add_action( 'geodirectory_loaded', 'geodir_load_real_estate' );
+//add_action( 'geodirectory_loaded', 'geodir_load_real_estate' );
+add_action( 'plugins_loaded', 'geodir_load_real_estate' );
 
 /**
  * Checks and loads the real estate directory requirements.

@@ -3,9 +3,9 @@ Contributors: stiofansisland, paoltaia, ayecode
 Donate link: https://wpgeodirectory.com
 Tags: geodirectory, property, real estate, rental, for sale
 Requires at least: 6.0
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -24,6 +24,9 @@ Add real estate functionality and blocks to your website.
 2. Activate the plugin "GeoDirectory Real Estate" through the 'Plugins' menu in WordPress
 
 == Changelog =
+
+= 2.0.1 =
+* Release on wpgeodirectory.com until release on wp.org - RELEASED
 
 = 2.0 =
 * Initial release.

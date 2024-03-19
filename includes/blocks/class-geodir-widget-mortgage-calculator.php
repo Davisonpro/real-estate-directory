@@ -497,8 +497,6 @@ class GeoDir_Widget_Mortgage_Calculator extends WP_Super_Duper {
                     }
                 }
 
-                console.log(pmi + '@@@' + gdmc_last_pmi);
-
                 var monthlyMortgagePayment = (loanAmount - downPaymentAmount) * (interestRate * Math.pow((1 + interestRate), loanTerm * 12)) / (Math.pow((1 + interestRate), loanTerm * 12) - 1);
                 var totalMonthlyPayment = monthlyMortgagePayment + propertyTax + homeInsurance + pmi + monthlyHOAFees;
 
