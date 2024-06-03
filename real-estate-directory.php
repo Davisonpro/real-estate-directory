@@ -21,7 +21,7 @@
  * Requires Plugin:   geodirectory, blockstrap-page-builder-blocks, usserwp
  * Text Domain:       real-estate-directory
  * Domain Path:       /languages
- * Update URL:        https://wpgeodirectory.com
+ * Update URL:        https://github.com/AyeCode/real-estate-directory/
  * Update ID:         4055647
  */
 

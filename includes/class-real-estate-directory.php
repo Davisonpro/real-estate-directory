@@ -266,7 +266,7 @@ final class GeoDir_Real_Estate {
 	 */
 	public static function geodirectory_notice() {
 		if ( ! class_exists( 'GeoDirectory' ) ) {
-			echo '<div class="error"><p>' .  esc_attr__( 'GeoDirectory plugin is required for the Save Search Notifications plugin to work properly.', 'real-estate-directory' ) . '</p></div>';
+			echo '<div class="error"><p>' .  esc_attr__( 'GeoDirectory plugin is required for the Real Estate Directory plugin to work properly.', 'real-estate-directory' ) . '</p></div>';
 		}
 	}
 
