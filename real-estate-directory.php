@@ -11,7 +11,7 @@
  * Plugin Name:       Real Estate Directory
  * Plugin URI:        https://wpgeodirectory.com/
  * Description:       Add real estate functionality to your site.
- * Version:           2.0.2
+ * Version:           2.0.3
  * Requires at least: 6.0
  * Requires PHP:      7.0
  * Author:            AyeCode Ltd
@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 if ( ! defined( 'REAL_ESTATE_DIRECTORY_VERSION' ) ) {
-	define( 'REAL_ESTATE_DIRECTORY_VERSION', '2.0.2' );
+	define( 'REAL_ESTATE_DIRECTORY_VERSION', '2.0.3' );
 }
 
 if ( ! defined( 'REAL_ESTATE_DIRECTORY_MIN_CORE' ) ) {

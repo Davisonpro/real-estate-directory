@@ -5,7 +5,7 @@ Tags: geodirectory, property, real estate, rental, for sale
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 2.0.22
+Stable tag: 2.0.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,6 +32,10 @@ Please refer to the matterport.com [Term of Use](https://matterport.com/terms-of
 2. Activate the plugin "GeoDirectory Real Estate" through the 'Plugins' menu in WordPress
 
 == Changelog =
+
+= 2.0.3 =
+* Version bump due to incorrect stable tag - FIXED
+
 = 2.0.2 =
 * ChartJS updated to v4.4.3 - UPDATED
 * Remove TGM plugin activation class, now using WP 6.5 Requires Plugins functionality - CHANGED
