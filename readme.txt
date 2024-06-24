@@ -5,7 +5,7 @@ Tags: geodirectory, property, real estate, rental, for sale
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ Add real estate functionality to your website.
 
 == Description ==
 
-Add real estate functionality and blocks to your website.
+Add real estate functionality and blocks to your website. 
 
 **WalkScore.com Block**
 Our GD > Walk Score block relies on the 3rd party services from [walkscore.com](https://www.walkscore.com). The block will embed an iframe on the page when used.
@@ -32,6 +32,9 @@ Please refer to the matterport.com [Term of Use](https://matterport.com/terms-of
 2. Activate the plugin "GeoDirectory Real Estate" through the 'Plugins' menu in WordPress
 
 == Changelog =
+
+= 2.0.4 =
+* First release on wp.org - YAY
 
 = 2.0.3 =
 * Version bump due to incorrect stable tag - FIXED
