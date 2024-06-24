@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 if ( ! defined( 'REAL_ESTATE_DIRECTORY_VERSION' ) ) {
-	define( 'REAL_ESTATE_DIRECTORY_VERSION', '2.0.4' );
+	define( 'REAL_ESTATE_DIRECTORY_VERSION', '2.0.5' );
 }
 
 if ( ! defined( 'REAL_ESTATE_DIRECTORY_MIN_CORE' ) ) {
